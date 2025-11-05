@@ -1,0 +1,100 @@
+{
+  // Theme: Pastel Dreamland Adventure
+  // Color Palette:
+  // - Thistle: #cdb4dbff
+  // - Fairy Tale: #ffc8ddff
+  // - Carnation Pink: #ffafccff
+  // - Uranian Blue: #bde0feff
+  // - Light Sky Blue: #a2d2ffff
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e4d6ec",
+    "activityBar.background": "#e4d6ec",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#ae8c51",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#e4d6ec",
+    "statusBar.background": "#cdb4db",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#b692ca",
+    "statusBarItem.remoteBackground": "#cdb4db",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#cdb4db",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#cdb4db99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#cdb4db",
+  "peacock.favoriteColors": [
+    {
+      "name": "Pastel Dreamland Adventure",
+      "value": "#cdb4db"
+    },
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "Cyan",
+      "value": "#00bcd4"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f7df1e"
+    },
+    {
+      "name": "Mocha",
+      "value": "#826d5b"
+    },
+    {
+      "name": "Peacock Blue",
+      "value": "#00acc1"
+    },
+    {
+      "name": "Purple",
+      "value": "#9932cc"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Ruby Red",
+      "value": "#ff3427"
+    },
+    {
+      "name": "Slate",
+      "value": "#708090"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b983"
+    }
+  ],
+  "peacock.colorCustomizations": {
+    "Pastel Dreamland Adventure": {
+      "activityBar.activeBackground": "#e4d6ec",
+      "activityBar.background": "#e4d6ec",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#ffc8dd",
+      "activityBarBadge.foreground": "#15202b",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#e4d6ec",
+      "statusBar.background": "#cdb4db",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#b692ca",
+      "statusBarItem.remoteBackground": "#cdb4db",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#cdb4db",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#cdb4db99",
+      "titleBar.inactiveForeground": "#15202b99"
+    }
+  }
+}
