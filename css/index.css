@@ -764,7 +764,7 @@
       padding: var(--sectionPadding);
       /* 30px - 50px */
       padding-bottom: clamp(1.875rem, 5vw, 3.125rem);
-      background-color: #1a1a1a;
+      background-color: var(--header_color);
       position: relative;
   }
   #cs-footer-1339 .cs-container {

@@ -12,7 +12,7 @@
       --bodyTextColor: #4E4B66;
       --bodyTextColorWhite: #FAFBFC;
       --calendlyBackground: #f7f7f7;
-      --header_color: #e63946;
+      --header_color: #415a77;
       /* 13px - 16px */
       --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
       /* 31px - 49px */
@@ -1037,6 +1037,7 @@
       margin: 0;
       color: var(--bodyTextColorWhite);
       position: relative;
+      font-family: 'Roboto', sans-serif;
     }
     #banner-712 .cs-background {
       width: 100%;
@@ -1272,7 +1273,7 @@
       padding: var(--sectionPadding);
       /* 30px - 50px */
       padding-bottom: clamp(1.875rem, 5vw, 3.125rem);
-      background-color: #1a1a1a;
+      background-color: var(--header_color);
       position: relative;
   }
   #cs-footer-1339 .cs-container {
@@ -1305,6 +1306,7 @@
       margin: 0 0 2rem 0;
       max-width: 23ch;
       color: var(--bodyTextColorWhite);
+      font-family: 'Roboto', sans-serif;
   }
   #cs-footer-1339 .cs-social {
       display: inline-flex;
@@ -1346,6 +1348,7 @@
       color: #fff;
       display: block;
       position: relative;
+      font-family: 'Roboto', sans-serif;
   }
   #cs-footer-1339 .cs-ul {
       margin: 0;
@@ -1368,6 +1371,7 @@
       align-items: flex-start;
       gap: 0.5rem;
       transition: color 0.3s;
+      font-family: 'Roboto', sans-serif;
   }
   #cs-footer-1339 .cs-link:hover {
       color: var(--primaryLight);
@@ -1405,6 +1409,7 @@
       display: inline-block;
       position: relative;
       transition: color 0.3s;
+      font-family: 'Roboto', sans-serif;
   }
   #cs-footer-1339 .cs-credit {
       width: 100%;
