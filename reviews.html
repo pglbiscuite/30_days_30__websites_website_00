@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Swap our for actual link-->
-    <link rel="canonical" href="Add Your Organization URL Here/reviews">
+    <link rel="canonical" href="https://demo.prodesign.agency/reviews">
 
-    <meta name="description" content="Read reviews and testimonials from our satisfied clients and see what they say about our services.">
-    <meta name="keywords" content="reviews, testimonials, feedback, client reviews, customer testimonials">
+    <meta name="description" content="Read reviews and testimonials from our satisfied clients. See what wedding photographers say about our website design services.">
+    <meta name="keywords" content="reviews, testimonials, feedback, client reviews, customer testimonials, wedding photography websites, photographer website design">
 
     <!--Social Media Display-->
     <!-- This helps display your organization in social media platforms -->
-    <meta property="og:title" content="Reviews - Add Your Organization Title Here"/>
-    <meta property="og:description" content="Read reviews and testimonials from our satisfied clients and see what they say about our services."/>
+    <meta property="og:title" content="Reviews - Pro Design Agency"/>
+    <meta property="og:description" content="Read reviews and testimonials from our satisfied clients. See what wedding photographers say about our website design services."/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="Add Your Organization URL Here/reviews"/>
-    <meta property="og:image" content="Add Your Organization Image Here"/>
-    <meta property="og:image:secure_url" content="Add Your Organization Image Here"/>
+    <meta property="og:url" content="https://demo.prodesign.agency/reviews"/>
+    <meta property="og:image" content="https://demo.prodesign.agency/assets/images/reviews/hero.webp"/>
+    <meta property="og:image:secure_url" content="https://demo.prodesign.agency/assets/images/reviews/hero.webp"/>
 
     <!--Favicons-->
     <!-- This helps display your organization in browser tabs -->
-    <link rel="icon" href="Add Your Organization Favicon Here" type="image/png" sizes="32x32">
-    <link rel="icon" href="Add Your Organization Favicon Here" type="image/png" sizes="16x16">
-    <link rel="icon" href="Add Your Organization Favicon Here" type="image/svg+xml">
-    <link rel="icon" href="Add Your Organization Favicon Here" sizes="any">
-    <link rel="apple-touch-icon" href="Add Your Organization Apple Touch Icon Here">
-    <link rel="manifest" href="Add Your Organization Manifest Here">
+    <link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
+    <link rel="icon" href="/assets/favicons/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/assets/favicons/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="/assets/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Preload -->
@@ -38,7 +38,7 @@
 
     <!-- Load your organization's stylesheets -->
     <link rel="stylesheet" href="/css/core-styles.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/reviews.css">
     
     <!-- Dark mode CSS loaded asynchronously - not needed for initial render -->
     <!-- This helps load your organization's dark mode stylesheet faster -->
@@ -53,8 +53,7 @@
 
     </script>
 
-    <!-- Add Your Title Here -->
-    <title>Reviews - Add Your Title Here</title>
+    <title>Reviews - Pro Design Agency</title>
 
     <!-- Add Your Google Analytics Here -->
     
@@ -62,37 +61,175 @@
     <!-- Add Your Organization Schema Here -->
     <!-- This helps Google understand your organization and its purpose -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "Add Your Organization ID Here",
-      "name": "Add Your Organization Name Here",
-      "legalName": "Add Your Organization Legal Name Here",
-      "alternateName": "Add Your Organization Alternate Name Here",
-      "url": "Add Your Organization URL Here",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "Add Your Organization Logo Here"
-      },
-      "email": "Add Your Organization Email Here",
-      "sameAs": [
-        "Add Your Organization LinkedIn Here",
-        "Add Your Organization X Here",
-        "Add Your Organization Instagram Here",
-        "Add Your Organization YouTube Here"
-      ],
-      "description": "Add Your Organization Description Here",
-      "foundingDate": "Add Your Organization Founding Date Here",
-      "founder": {
-        "@type": "Person",
-        "name": "Add Your Organization Founder Name Here"
-      }
-    }
-    </script>
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://prodesign.agency/#organization",
+          "name": "PRO DESIGN AGENCY S.R.L",
+          "legalName": "PRO DESIGN AGENCY S.R.L",
+          "alternateName": "Pro Design Agency",
+          "url": "https://prodesign.agency",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://demo.prodesign.agency/assets/images/nav/nav.svg"
+          },
+          "email": "info@prodesign.agency",
+          "sameAs": [
+            "https://www.linkedin.com/in/alexandrubogdandev/",
+            "https://x.com/aIexandrubogdan",
+            "https://www.instagram.com/alexandrubogdandev/",
+            "https://www.youtube.com/@alexandru-bogdanDEV"
+          ],
+          "description": "We design high-quality, Google-optimized, mobile-friendly websites for wedding photographers so they attract more clients and stand out professionally.",
+          "foundingDate": "2025-01-01",
+          "founder": {
+            "@type": "Person",
+            "name": "Alexandru Bogdan"
+          }
+        }
+        </script>
 
 </head>
 <body>
-    <!-- Add your reviews page content here -->
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+  <div class="cs-container">
+      <!--Nav Logo-->
+      <!--Logo is turned white in the css with a filter on dark mode-->
+      <a href="" class="cs-logo" aria-label="back to home">
+          <img src="/assets/images/nav/nav.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+      </a>
+      <!--Navigation List-->
+      <nav class="cs-nav" role="navigation">
+          <!--Mobile Nav Toggle-->
+          <button class="cs-toggle" aria-label="mobile menu toggle">
+              <div class="cs-box" aria-hidden="true">
+                  <span class="cs-line cs-line1" aria-hidden="true"></span>
+                  <span class="cs-line cs-line2" aria-hidden="true"></span>
+                  <span class="cs-line cs-line3" aria-hidden="true"></span>
+              </div>
+          </button>
+          <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+          <div class="cs-ul-wrapper">
+              <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                  <li class="cs-li">
+                      <a href="/" class="cs-li-link">
+                          Home
+                      </a>
+                  </li>
+                  <li class="cs-li">
+                      <a href="/about.html" class="cs-li-link">
+                          About
+                      </a>
+                  </li>
+                  <li class="cs-li">
+                    <a href="/portfolio.html" class="cs-li-link">
+                        Portfolio
+                    </a>
+                </li>
+
+
+                  <li class="cs-li">
+                      <a href="/reviews.html" class="cs-li-link cs-active">
+                          Reviews
+                      </a>
+                  </li>
+                  <li class="cs-li">
+                      <a href="/contact.html" class="cs-li-link">
+                          Contact
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+      <a href="/contact.html" class="cs-button-outline">Book Now</a>
+      <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+      <button id="dark-mode-toggle" aria-label="dark mode toggle">
+          <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+          <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+      </button>
+  </div>
+</header>
+
+
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-1339">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <h2 class="cs-title">Professional Website Design That Just Makes Sense</h2>
+            <div class="cs-social">
+                <a class="cs-social-link" aria-label="visit linkedin profile" href="https://www.linkedin.com/in/alexandrubogdandev/" target="_blank">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/nav/linkedin.svg" alt="linkedin" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit twitter profile" href="https://x.com/aIexandrubogdan" target="_blank">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/nav/x.svg" alt="twitter" width="6" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit instagram profile" href="https://www.instagram.com/alexandrubogdandev/" target="_blank">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/nav/insta.svg" alt="instagram" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit youtube profile" href="https://www.youtube.com/@alexandru-bogdanDEV" target="_blank">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/nav/youtube.svg" alt="youtube" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Quick Links</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a class="cs-link" href="/about.html">About</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="/portfolio.html">Portfolio</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="/reviews.html">Reviews</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-ul-wrapper">
+            <!-- Contact Info -->
+            <span class="cs-header">Contact</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a class="cs-link" href="mailto:info@prodesign.agency">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/email-white.svg" alt="email icon" width="24" height="24">
+                        info@prodesign.agency
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="/contact.html">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-white.svg" alt="contact icon" width="24" height="24">
+                        Get In Touch
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-credit">
+            © Copyright 2025 <a href="https://prodesign.agency" class="cs-credit-link" target="_blank">Pro Design Agency</a>
+        </span>
+        <div class="cs-bottom-links">
+            <a href="/contact.html" class="cs-bottom-link">Privacy Policy</a>
+            <a href="/contact.html" class="cs-bottom-link">Terms Of Use</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->                              
+<script src="/assets/js/nav.js"></script>
+
 </body>
 </html>
 
